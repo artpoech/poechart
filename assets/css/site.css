@@ -68,7 +68,7 @@ label{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 input,textarea{width:100%;margin-top:.35rem;background:transparent;border:0;border-bottom:1px solid #3a3835;color:var(--paper);font:inherit;font-size:1.05rem;padding:.55rem 0;outline:none;transition:border-color .3s}
 input:focus,textarea:focus{border-color:var(--paper)}
 textarea{min-height:7.5rem;resize:vertical}
-.hp{position:absolute;left:-9999px}
+.hp{display:none!important}
 .btn{justify-self:start;display:inline-block;background:transparent;color:var(--paper);border:1px solid var(--paper);font-family:var(--sans);font-size:.95rem;padding:.8rem 2.2rem;cursor:pointer;transition:background .3s,color .3s}
 .btn:hover{background:var(--paper);color:var(--black)}
 .form-msg{display:none;font-family:var(--sans);border:1px solid var(--line);padding:1.2rem 1.4rem}
